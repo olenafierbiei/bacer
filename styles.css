@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  /* Можна змінити для конкретної ширини */
+  max-width: 600px;
+  /* Максимальна ширина контейнера */
+}
+
+.background-image {
+  display: block;
+  width: 100%;
+  /* Зображення буде масштабуватися по ширині контейнера */
+  height: auto;
+  /* Пропорції зображення зберігаються */
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  /* Колір тексту */
+  text-align: center;
+  /* Центрування тексту */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Напівпрозорий фон для читабельності */
+  padding: 20px;
+  /* Внутрішній відступ для тексту */
+  border-radius: 10px;
+  /* Злегка округлі кути */
